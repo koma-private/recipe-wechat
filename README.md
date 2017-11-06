@@ -20,7 +20,7 @@ Recipe for [WeChat](https://www.wechat.com) integration with [Franz 5](http://me
 [Read the documentation](https://github.com/meetfranz/plugins)
 
 ## WeChat logo resources
-Uses unofficial logos aquired from https://github.com/RayPS/WeChat-Logo
+Uses unofficial logos acquired from https://github.com/RayPS/WeChat-Logo
 
 ## Authors
 [Koma](https://github.com/koma-private/)
