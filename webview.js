@@ -1,4 +1,5 @@
 'use strict';
+const path = require('path');
 
 module.exports = (Franz, options) => {
   function getMessages() {
@@ -24,6 +25,8 @@ module.exports = (Franz, options) => {
 
     Franz.setBadge(directCount, indirectCount);
   }
+
+  Franz.injectCSS(path.join(__dirname, 'service.css'));
 
   Franz.loop(getMessages);
 }
